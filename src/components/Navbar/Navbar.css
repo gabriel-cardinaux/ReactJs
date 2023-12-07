@@ -1,0 +1,35 @@
+#navBar{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: black;
+}
+
+#navBar h1{
+    justify-self: start;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+#navBar li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#navBar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cartWidget img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 4vh;
+    cursor: pointer;
+    background-color: azure;
+}
